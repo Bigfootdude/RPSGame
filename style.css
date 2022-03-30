@@ -1,0 +1,59 @@
+* {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+#flexContainer {
+    padding:0;
+    border:0;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+button {
+    background-color: black;
+    color: grey;
+}
+
+#score {
+    display: flex;
+    gap: 30px;
+}
+
+#selections {
+    display: flex;
+    gap: 30px;
+}
+
+#buttons {
+    width: auto;
+    height: 80px;
+    flex: 1 1 auto;
+}
+
+#score {
+    width: auto;
+    height: 80px;
+    flex: 1 1 auto;
+}
+
+#win {
+    width: auto;
+    height: 80px;
+    flex: 1 1 auto;
+}
+
+#selections {
+    width: auto;
+    height: 80px;
+    flex: 1 1 auto;
+}
+
+#victory {
+    width: auto;
+    height: 80px;
+    flex: 1 1 auto;
+}
