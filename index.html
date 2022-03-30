@@ -3,8 +3,29 @@
 	<head>
 		<meta type="UTF-8">
 		<title>Rock Paper Scissors</title>
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
+		<div id="flexContainer">
+
+		
+		<button onclick="toggleMode(normalGame)">Game Mode</button>
+		<p>I did this!  They called me crazy but I did THIS!  It Works!  Behold!</p>
+		<div id='buttons'>
+		<button onclick="playRound(0)">Rock</button>
+		<button onclick="playRound(1)">Paper</button>
+		<button onclick="playRound(2)">Scissors</button>
+		<button id="lizard" onclick="playRound(4)">Lizard</button>
+		<button id="spock" onclick="playRound(3)">Spock</button>
+		</div>
+
+	   	<div id="score"><div id="playerS"></div><div id="computerS"></div></div>
+		<div id="selections"><div id="playerC"></div><div id="computerC"></div></div>
+		<div id="win"></div>
+        <div id="victory"></div>
+	
+
+		</div>
 		<script src="script.js">
 		</script>
 	</body>
